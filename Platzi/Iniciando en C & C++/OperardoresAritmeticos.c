@@ -17,9 +17,9 @@ int main()
 
     printf ("Resutlado de la suma: %i \n", rSum);
     printf ("Resutlado de la resta: %f \n", rRest);
-    printf ("Resutlado de la divición: %f \n", rDiv);
-    printf ("Resutlado de la multiplicación: %f \n", rMult);
-    printf ("Resutlado del módulo: %i \n", rMod);
+    printf ("Resutlado de la diviciï¿½n: %f \n", rDiv);
+    printf ("Resutlado de la multiplicaciï¿½n: %f \n", rMult);
+    printf ("Resutlado del mï¿½dulo: %i \n", rMod);
 
     return 0;
 }
@@ -39,7 +39,7 @@ int main()
 
     int vol = (3.1616*(radio^2))*altura;
 
-    printf ("El volúmen del cilindro es: %i", vol);
+    printf ("El volï¿½men del cilindro es: %i", vol);
 
     return 0;
 }

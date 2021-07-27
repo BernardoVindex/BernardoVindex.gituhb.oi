@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <stdbool.h>
 
-/*                  Ejercicio de impreción de datos en consola
+/*                  Ejercicio de impreciï¿½n de datos en consola
 int main()
 {
     int integerA = 1;
@@ -21,9 +21,9 @@ int main()
 return 0;
 }
 */
-//El caracter "&" es un apuntador, determinará en dónde se guardara la información que es está guardando
+//El caracter "&" es un apuntador, determinarï¿½ en dï¿½nde se guardara la informaciï¿½n que es estï¿½ guardando
 
-/*                  Ejercicio de asignación de datos desde hardware
+/*                  Ejercicio de asignaciï¿½n de datos desde hardware
 int main()
 {
     int integerA;
