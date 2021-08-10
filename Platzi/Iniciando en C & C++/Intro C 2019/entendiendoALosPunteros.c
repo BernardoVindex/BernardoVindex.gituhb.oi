@@ -1,19 +1,24 @@
 #include <stdio.h>
 
-void jugar(int* n)
+void cambio(int *a, int *b)
 {
-	printf("El valor del apuntador *n es: %d\n", *n);
-	int y = *ny = (y + 2) / 2 + 2 - (3 * y);
-	printf("El valor de y es: %d\n",y);
-	
+	int aux;
+
+        
+	aux = *a;:    
 }
 
 int main()
 {
-	int x = 10;
-	printf("El valor de x priemro es: %d\n", x);
-	jugar(&x);
-	printf("El valor de x despues es: %d\n", x);
+	int x, y;
+
+	x = 5;
+	y = 10;
+	
+	printf("'X' vale: %i, y 'Y' vale: %i\n\n", x,y);
+	cambio (&x, &y);
+	
+	printf("Ahora 'X' vale: %i, y 'Y' vale: %i\n\n", x,y);
 		
 	return 0;
 }
