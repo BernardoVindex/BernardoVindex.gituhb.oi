@@ -1,0 +1,17 @@
+.main-nav {
+	margin-top: 10px;
+	list-style: none; /*Para eliminar los estilos de <ul>*/
+	padding-left: 0; /*El pacio interno en un contenedor para ver esto has "insepct" y mira el cuadro de colores*/
+	background-color: #13a4a4;
+}
+
+.main-nav__item {
+	display: inline-block;
+
+}
+
+.main-nav__itme a {
+	color: withe;
+	padding: 5px;
+	border-radius:
+}
