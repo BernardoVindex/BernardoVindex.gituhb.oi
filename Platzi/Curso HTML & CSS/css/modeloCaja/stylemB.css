@@ -1,0 +1,18 @@
+* {      
+    box-sizing; border-box;
+    padding: 0;
+    margin: 0;
+/*Esto es un instructor univeral, lo que hace es que reinicia
+todos los estilos predeterminados del navegdor*/
+}
+
+
+main {
+    width: 100%;
+    height: 500px;
+    border: 10px solid grey;
+    padding: 20px 35px;     
+    /*Si "padding: Xpx;" agrega px a margen total, 
+      Si "paddgin: Ypx Xpx;" agrega margen de "Ypx" arriba y abajo y margen de "Xpx" derecha e izquierda
+      Si "padding-left: Xpx;" agrega margen de Xpx solo a izquierda*/
+}

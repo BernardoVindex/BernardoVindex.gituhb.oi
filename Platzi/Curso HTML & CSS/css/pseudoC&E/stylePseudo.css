@@ -10,8 +10,24 @@
 
 }
 
-.main-nav__itme a {
-	color: withe;
+.main-nav__item a {
+	color: white;
 	padding: 5px;
-	border-radius:
+	border-radius: 2px;
+	text-decoration: none;
+}
+
+/*Pseudo Clases*/
+.main-nav__item a:hover {  /* It´s when you PUT the mouse over the element*/
+	color: blue;
+}
+
+.main-nav__item a:active { /*It´s que you CLICK over the element*/
+	color: red;
+}
+
+/*Pseudo Elemento*/
+
+.main-nav__item a::after {
+	content: " | "
 }
