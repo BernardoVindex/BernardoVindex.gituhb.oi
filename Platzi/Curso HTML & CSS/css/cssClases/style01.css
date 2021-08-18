@@ -1,0 +1,19 @@
+/* Selector por elemento de HTML		*/
+
+p {
+  color: blue;
+  font-size: 40px;
+}
+
+/*  Clases  */
+
+.parrafo {
+  color: red;
+}
+
+/*  ID  */
+
+#parrafoprron {
+  color: yellow;
+  font-size: 24px;
+{
