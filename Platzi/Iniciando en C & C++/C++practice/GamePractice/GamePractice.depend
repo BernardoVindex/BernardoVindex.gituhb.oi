@@ -1,0 +1,26 @@
+# depslib dependency file v1.0
+1629252456 source:c:\users\osiri\vindexber\bernardovindex.gituhb.oi\platzi\iniciando en c & c++\c++practice\gamepractice\main.cpp
+	<iostream>
+	"Player.h"
+	"MapCell.h"
+	"GameMap.h"
+
+1629253556 source:c:\users\osiri\vindexber\bernardovindex.gituhb.oi\platzi\iniciando en c & c++\c++practice\gamepractice\src\player.cpp
+	"Player.h"
+	<iostream>
+
+1629252440 c:\users\osiri\vindexber\bernardovindex.gituhb.oi\platzi\iniciando en c & c++\c++practice\gamepractice\include\player.h
+
+1629250217 source:c:\users\osiri\vindexber\bernardovindex.gituhb.oi\platzi\iniciando en c & c++\c++practice\gamepractice\src\mapcell.cpp
+	"MapCell.h"
+
+1629251437 c:\users\osiri\vindexber\bernardovindex.gituhb.oi\platzi\iniciando en c & c++\c++practice\gamepractice\include\mapcell.h
+
+1629254340 c:\users\osiri\vindexber\bernardovindex.gituhb.oi\platzi\iniciando en c & c++\c++practice\gamepractice\include\gamemap.h
+	"MapCell.h"
+
+1629254561 source:c:\users\osiri\vindexber\bernardovindex.gituhb.oi\platzi\iniciando en c & c++\c++practice\gamepractice\src\gamemap.cpp
+	<iostream>
+	"GameMap.h"
+	<fstream>
+
