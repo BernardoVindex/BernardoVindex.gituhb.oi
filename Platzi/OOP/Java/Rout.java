@@ -1,5 +1,7 @@
+import java.util.ArrayList;
+
 class Route{
-    Integrer id;
+    Integer id;
     ArrayList<Double> start;
-    ArrayList<Double> start;
+    ArrayList<Double> end;
 }

@@ -1,20 +1,16 @@
-System.out.println("Hola Mundo");
-
-class Main {
-
+class Main 
+{
     public static void main(String[] args) {
        
-        UberFloat Uber = new UberFloat();
-        Uber.diver = "Andrez Herrera";
-        Uber.license = "AMQ123";
-        Uber.passenger = 4;
-        System.out.println("Car Licesne: "+ car.license);
+        UberX uberX = new UberX("AMQ123", new Account("Andrez Herrera","ANS123"), "Chevrolet", "Sonic");
+        uberX.setPassenger(4);
+        uberX.printDataCar();
 
-        UberFloat UberX = new UberFloat();
-        UberX.diver = "Andrea Huerta";
-        UberX.license = "FZQ123";
-        UberX.passenger = 4;
-        System.out.println("Car Licesne: "+ car.license);
-
+        UberVan uberVan = new UberVan("THY862", new Account("Andrez Herrera","ANS123"), null, null);
+        uberVan.setPassenger(6);
+        uberVan.printDataCar();
+        /*Car car2 = new Car("FZQ123", new Account("Andrea Huerta","ADNS563"));
+        car2.passenger = 3;
+        car.printDataCar();*/
     }
 }

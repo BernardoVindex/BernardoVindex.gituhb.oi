@@ -1,5 +1,9 @@
 <?php
-public $id = integer;
-public $start = float;
-public $end = float;
+
+class Rout{
+    public $id; 
+    public $init = array();
+    public $end = array();
 }
+
+?>

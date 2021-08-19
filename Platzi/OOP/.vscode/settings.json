@@ -5,5 +5,9 @@
 	"python.analysis.extraPaths": [
 		"./Python"
 	],
+	"java.project.sourcePaths": [
+		"Java",
+		"PHP"
+	],
 
 }

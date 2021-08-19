@@ -1,5 +1,9 @@
-function Rote(){
-    this.id;
-    this.init;
-    this.end;
+class Rote
+{
+    constructor(){
+        this.id;
+        this.init;
+        this.end;
+    }
+    
 }
