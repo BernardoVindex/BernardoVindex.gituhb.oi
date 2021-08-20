@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+dotted: punteado
+*/
+.parent {
+    border: 2px black dotted;
+    display: inline-block;
+}
+
+.box {
+    display: inline-block;
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
+
+#first {
+    position: relative;
+    background-color: black;
+}
+
+
+#second {
+    position: absolute;
+    background-color: green;
+}
+
+#thirth {
+    position: fixed;
+}

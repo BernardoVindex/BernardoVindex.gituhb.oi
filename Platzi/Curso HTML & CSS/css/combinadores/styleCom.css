@@ -1,0 +1,36 @@
+/*
+Adjacent Sibling:
+"Aplique elcolor rojo a toda las etiquetas 
+que estén cerca (+ cerca hacia abajo) de una 
+etiqueta h2"
+*/
+h2 + p {
+    color: red;
+}
+
+/*
+General Sibling:
+"Aplique elcolor amarillo a toda las etiquetas 
+p que tengan como hermano general un h3
+*/
+h4 ~ p {
+    color: yellow;
+}
+
+/*
+Child:
+La etiqueta p que sea hija directa ta de una 
+etiqueta article, agregale el sigueinte estilo
+*/
+article > p {
+    color: blueviolet;
+}
+
+/*
+Descendent:
+Todas las etiquetas p que esten dento de un 
+contenedor section
+*/
+section p {
+    color: blue;
+}
