@@ -24,3 +24,28 @@
 	"GameMap.h"
 	<fstream>
 
+1629739873 source:c:\users\genrente\vindexber\platzi\iniciando en c & c++\c++practice\gamepractice\main.cpp
+	<iostream>
+	"Player.h"
+	"MapCell.h"
+	"GameMap.h"
+
+1629736342 c:\users\genrente\vindexber\platzi\iniciando en c & c++\c++practice\gamepractice\include\player.h
+
+1629735588 c:\users\genrente\vindexber\platzi\iniciando en c & c++\c++practice\gamepractice\include\mapcell.h
+
+1629739864 c:\users\genrente\vindexber\platzi\iniciando en c & c++\c++practice\gamepractice\include\gamemap.h
+	"MapCell.h"
+
+1629736640 source:c:\users\genrente\vindexber\platzi\iniciando en c & c++\c++practice\gamepractice\src\player.cpp
+	"Player.h"
+	<iostream>
+
+1629739622 source:c:\users\genrente\vindexber\platzi\iniciando en c & c++\c++practice\gamepractice\src\gamemap.cpp
+	<iostream>
+	"GameMap.h"
+	<fstream>
+
+1629735636 source:c:\users\genrente\vindexber\platzi\iniciando en c & c++\c++practice\gamepractice\src\mapcell.cpp
+	"MapCell.h"
+

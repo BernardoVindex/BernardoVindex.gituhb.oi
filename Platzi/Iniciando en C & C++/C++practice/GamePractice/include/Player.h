@@ -7,8 +7,12 @@ class Player
         Player();
 
         void CallImput();
+        void ResetToSafePosition();
 
         int x, y;
+
+        //Coordenadas a las que regresará si intenta pasar un muro
+        int lastX, lastY;
 
     protected:
 

@@ -11,9 +11,13 @@ class GameMap
         MapCell* PlayerCell;
         MapCell cells[15][10];
 
+        void DrawIntro();
+        void DrawVictory();
         void Draw();
         //Esta función obtiene las coordenadas de player y las actualiza en mapa
-        void SetPlayerCell(int PlayerX, int PlayerY);
+        bool SetPlayerCell(int PlayerX, int PlayerY);
+
+        bool isGameOver = false;
 
 
     protected:
