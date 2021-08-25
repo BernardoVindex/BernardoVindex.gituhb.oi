@@ -10,7 +10,26 @@
     <h1>
         Porcentajes y descuentos
     </h1>
+    <section>
+        <h2>Calcular el precio a pagar de tus productos con descuento</h2>
+        <form>
+            <label for="InputPrice">Escribe el precio de tu producto: </label>
+            <input id="InputPrice" type="number" />
+
+            <label for="InputDisscount">Escribe el descuento de tu product: </label>
+            <input id="InputDisscount" type="number"/>
+
+            <label for="InputCupon">Si tienes un cupón agregalo para un descuento mejor: </label>
+            <input id="InputCupon" />
+
+            <button type="button" onclick="onClickButtonPriceDisscount()">
+                Calcula el precio con descuento 
+            </button>
+            <p id="ResultP"></p>
+        </form>
+    </section>
 
     <script src="./calcPor.js"></script>
+
 </body>
 </html>
