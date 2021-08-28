@@ -15,18 +15,96 @@ header {
 }
 
 header section {
+    padding-top: 40px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    margin: 50px 0 0 0;
 }
 
 header .logo-wikipedia .wiki-zawardo {
+    background-image: url('https://www.wikipedia.org/portal/wikipedia.org/assets/img/Wikipedia-logo-v2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
     width: 60px;
+    height: 60px;
+}
+
+header .logo-wikipedia .wiki-slogan {
+    width: 160px;
 }
 
 header .logo-wikipedia .wiki-word {
-    width: 100px;
-    margin: 0 auto
+    width: fit-content;
+    background-color: aquamarine;
+}
+header p {
+    font-size: 1.6rem;
 }
 
+
+/* ---------- Estilos MAIN ---------- */
+
+main {
+    text-align: center;
+    margin: 0;
+}
+
+main .searcher {
+    width: 97%;  /*Tamaño de <section> */
+    margin: 0 auto; /*0 margen (arriba y abajo) aut margen para centrar (izq. der.)*/ 
+}
+
+main .input-container {
+    border: 1px solid #afb5bc; /*Propiedades obligatorias tamaño/tipo de linea/color*/
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+}
+
+main .input-container .input-text {
+    width: calc(100% - 100px);  /*Tomará el tamaño de contenedor menos los px del "leng" y "blue-button"*/
+    height: 40px;
+    padding: 10px;
+    border: none;
+}
+
+main .input-container .leng-list {
+    border: none;
+    width: 50px;
+    height: 20px;
+}
+
+main .input-container .blue-button {
+    width: 50px;
+    height: 40px;
+    border: none;
+    background-color:#3366cc ;
+}       
+
+main .articles-container {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+main .c1,  .c2, .c3, .c4, .c5, .c6, .c7, .c8, .c9, .c10 {
+    width: 33%;
+    min-width: 100px;
+    max-width: 150px;
+    height: 50px;
+    margin: 10px 0;
+    padding: 0 20px;
+}
+
+main h2 {
+    font-size: 1.4rem;
+    color: #3366cc;
+}
+
+main p {
+    font-size: 1.3rem;
+    color: #54595d;
+}
 
