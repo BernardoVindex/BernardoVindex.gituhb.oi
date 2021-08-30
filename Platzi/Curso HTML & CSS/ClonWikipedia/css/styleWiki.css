@@ -26,18 +26,25 @@ header .logo-wikipedia .wiki-zawardo {
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    width: 60px;
-    height: 60px;
+    border: none;
+    width: 55px;
+    height: 55px;
+    margin-right: 5px;
 }
 
 header .logo-wikipedia .wiki-slogan {
     width: 160px;
+    align-items: center;
 }
 
 header .logo-wikipedia .wiki-word {
-    width: fit-content;
-    background-color: aquamarine;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 160px;
+    padding-top: 5px;
 }
+
 header p {
     font-size: 1.6rem;
 }
@@ -51,7 +58,7 @@ main {
 }
 
 main .searcher {
-    width: 97%;  /*Tamaño de <section> */
+    width: 90%;  /*Tamaño de <section> */
     margin: 0 auto; /*0 margen (arriba y abajo) aut margen para centrar (izq. der.)*/ 
 }
 
@@ -77,8 +84,9 @@ main .input-container .leng-list {
 
 main .input-container .blue-button {
     width: 50px;
-    height: 40px;
+    height: 45px;
     border: none;
+    border-radius: 0;
     background-color:#3366cc ;
 }       
 
@@ -107,4 +115,21 @@ main p {
     font-size: 1.3rem;
     color: #54595d;
 }
+
+main .lenguages-selecter {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;   
+}
+
+main .lenguages-selecter .button-leng-slct {
+    width: 270px;
+    height: 40px;
+}
+
+
+/* ---------- Estilos MAIN ---------- */
+
 
