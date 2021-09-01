@@ -22,19 +22,19 @@ header section {
 }
 
 header .logo-wikipedia .wiki-zawardo {
-    background-image: url('https://www.wikipedia.org/portal/wikipedia.org/assets/img/Wikipedia-logo-v2.png');
+    /*background-image: url('https://www.wikipedia.org/portal/wikipedia.org/assets/img/Wikipedia-logo-v2.png');*/
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    border: none;
     width: 55px;
-    height: 55px;
+    height: 50px;
     margin-right: 5px;
 }
 
 header .logo-wikipedia .wiki-slogan {
     width: 160px;
-    align-items: center;
+    display: block;
+    align-content: center;
 }
 
 header .logo-wikipedia .wiki-word {
@@ -47,6 +47,7 @@ header .logo-wikipedia .wiki-word {
 
 header p {
     font-size: 1.6rem;
+    text-align: center;
 }
 
 
@@ -97,12 +98,12 @@ main .articles-container {
     align-items: center;
 }
 
-main .c1,  .c2, .c3, .c4, .c5, .c6, .c7, .c8, .c9, .c10 {
+main .c1, .c2, .c3, .c4, .c5, .c6, .c7, .c8, .c9, .c10 {
     width: 33%;
     min-width: 100px;
     max-width: 150px;
     height: 50px;
-    margin: 10px 0;
+    margin: 10px 0 22.5px 0;
     padding: 0 20px;
 }
 
@@ -111,9 +112,21 @@ main h2 {
     color: #3366cc;
 }
 
+main h3 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.3rem;
+    color: #3366cc;
+}
+
 main p {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 1.3rem;
     color: #54595d;
+}
+
+main a {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.3rem;
 }
 
 main .lenguages-selecter {
@@ -121,12 +134,107 @@ main .lenguages-selecter {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    margin: 0 auto;   
+    margin: 5px auto;   
 }
 
 main .lenguages-selecter .button-leng-slct {
     width: 270px;
-    height: 40px;
+    height: 36px;
+    margin-bottom: 25px;
+    background-color: #f8f9fa;
+    border: 1px solid #a2a9b1;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}   
+
+main .lenguages-selecter .leng-icon {
+    /*background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/OOjs_UI_icon_language-ltr-progressive.svg/800px-OOjs_UI_icon_language-ltr-progressive.svg.png');*/
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+}
+
+main .lenguages-selecter .arrow-icon {
+    background-image: url('https://www.pinclipart.com/picdir/big/85-854879_drop-down-box-arrow-comments-black-v-letter.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 10px;
+    width: 22px;
+    height: 22px;
+}
+
+
+main .divider {
+    background-color: #c8ccd1;
+    width: calc(100% - 5px);
+    height: 1px;
+    
+}
+
+main .mission {
+    align-content: center;
+    font-size: 1.3rem;
+    padding: 0 15px;
+}
+
+main .mission img {
+    width: 42px;
+    height: 42px;
+    margin: 15px 0;
+}
+
+main .resources {
+    min-width: 320px;
+    max-width: 500px;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+main .resources .link-src-1, .link-src-2, .link-src-3, .link-src-4, .link-src-5, .link-src-6, .link-src-7, .link-src-8, .link-src-9, .link-src-10, .link-src-11, .link-src-12 {
+    min-width: 150px;
+    max-width: 180px;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+main .resources img {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 40px;    
+}
+
+main .resources .ltc {
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100px;
+    height: fit-content;
+    
+}
+
+main .apps {
+    background-color: #f8f9fa;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+main .apps .wiki-app {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 29px;    
 }
 
 
