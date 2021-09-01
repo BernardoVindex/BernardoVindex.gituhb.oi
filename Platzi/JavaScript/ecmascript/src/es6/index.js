@@ -31,27 +31,27 @@ console.log(epicPhrase2);
 2.-LET y CONST, Multilínea, Spread Operator y Desestructuración
 */
 
-// antes
+// antes, Espacios
 let lorem = "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...\n" + "otra frase para concatear."
 console.log(lorem);
-// es6
 
+// es6, espacios 
 let lorem2 = `Many Fall In The Face Of Chaos, 
 But Not This One.
 Not Today...`
-
 console.log(lorem2);
 
 // antes, estructuracion de elementos
 let person = {
-    'name' : 'bernardo',
-    'age' : 27,
-    'country' : 'MX'
+    'name': 'bernardo',
+    'age': 27,
 }
 
 console.log(person.name, person.age);
 
 // esc6, estructuracion de elementos
 
-let { name, age} = person;
-console.log( name, age);
+let {name,age} = person;
+console.log(name)
+
+// ane
