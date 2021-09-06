@@ -31,7 +31,7 @@ someThingWillHappen2()
     .catch(err => console.error(err));
 
 
-//Como corer varias promesas a la vez
+//Como crorer varias promesas a la vez
 Promise.all([someThingWillHappen(), someThingWillHappen2()])
     .then(response => {
         console.log('Array of result', response);
