@@ -4,3 +4,5 @@
 *.png
 *.layout
 *.svg
+node_modules/
+pug2019/
