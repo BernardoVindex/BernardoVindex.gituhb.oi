@@ -4,5 +4,8 @@
 *.png
 *.layout
 *.svg
+*.ttf
+*.woff
+*.eot
 node_modules/
 pug2019/
