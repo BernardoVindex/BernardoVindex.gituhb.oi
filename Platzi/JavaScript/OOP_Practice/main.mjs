@@ -1,0 +1,1 @@
+imprt { PlatziClass } from "./Encaps_Modul.js"
