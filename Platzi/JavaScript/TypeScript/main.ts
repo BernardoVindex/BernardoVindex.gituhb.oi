@@ -176,10 +176,127 @@
 
     console.log('userArc1', userArC1);
     
-    //9 T
-/*
-nebulizar 
-dalce centro sanluis 
-comprobate de deposito
-4441692180
+    //9 Tupla
+    //
+    let userT:  [number, string];
+    userT = [1, 'Maldamba'];
+
+    console.log('userT', userT);
+    console.log('ID:', userT[0]);
+    console.log('username:', userT[1]);
+    console.log('username.length:', userT[1].length);
+
+    //Tuplas cn varios valores
+    // id, user, isPro
+
+    let userInfoTupla: [number, string, boolean];
+    userInfoTupla = [2, 'Skye', true];
+
+    console.log('userInfoTupla', userInfoTupla);
+
+    //Arreglo de Tuplas
+    let array: [number, string][] = [];
+    array.push([1,'Phone']);
+    array.push([2,'TV']);
+    array.push([3,'Laptop']);
+    console.log('array', array);
+
+    //Uso de funciones Array TV -> TV Smart
+
+    array[1][1] =  array[1][1].concat(' Smart');
+    console.log('array', array);
+
+    //Enum
+    enum photoOrientation {
+        Landscape,
+        Portrait,
+        Square,
+        Panorama
+    }
+
+    const landscpe: photoOrientation = photoOrientation.Landscape;
+    console.log('landscape', landscpe)
+    console.log('landscape', photoOrientation[landscpe])
+    
+    enum pictureOrientation {
+        Landscape = 10,
+        Portrait,
+        Square,
+        Panorama
+    }
+    
+    console.log('portrait', pictureOrientation.Portrait)
+
+    enum Country {
+        Bolivia = 'bol',
+        Colombia = 'col',
+        Mexico = 'mex',
+        EEUU = 'usa',
+        Espana = 'esp'
+    }
+
+    const country: Country = Country.Colombia;
+    console.log('country', country);
+
+    //Unión de Tipos
+   /* let idUserUnion: number | string;
+    idUserUnion = 10;
+    idUserUnion = '10';
+
+    //Buscar username dade un ID
+    function getUsernameById(id: number | string){
+        return 'Kalifa';
+    }
+
+    getUsernameById(20);
+    getUsernameById('20');
 */
+    //Alias de Tipos: TS
+    type IdUserAT = number | string; 
+    type UsernameAT = String;
+
+    let idUserUnion: IdUserAT;
+    idUserUnion = 10;
+    idUserUnion = '10';
+
+    //Buscar username dade un ID
+    function getUsernameById(id: IdUserAT): UsernameAT{
+        return 'Kalifa';
+    }
+
+    getUsernameById(20);
+    getUsernameById('20');
+
+    //Tipos Literales
+    //Fotografías admitidas 100x100, 500x500, 1000x1000
+    type SqareSize = '100x100' | '500x500' | '1000x1000';
+    
+    //let smallPicture: SqareSize = '200x200' //ERROR
+    let smallPicture: SqareSize = '100x100'
+    let mediumPicture: SqareSize = '500x500'
+
+    //Aserciones de tipo
+    // Sintaxys: <tipo> //Angle Bracket
+    let userNameAB: any;
+    userNameAB = 'Furia myw';
+
+    // tenemos una cadena, TS confía en mi!
+    let messageAB: string = (<string>userNameAB).length > 5 ? 
+                          `Welcome ${userNameAB}`:
+                          `Username is too short`
+    console.log('messageAB', messageAB)
+                        
+    let userNameWithId: any = "Cassie    15"
+    //Cómo obtener el userName?
+    userNameAB = (<string>userNameWithId).substring(0,10);
+    console.log('Only Username', userNameAB);
+
+    // Sintaxys: "as"
+    messageAB = (userNameAB as string).length > 5 ? 
+                `Welcome ${userNameAB}`:
+                `Username is too short`;
+    
+    let helloUser: any;
+    helloUser = 'hello Wfu'
+    userNameAB = (helloUser as string).substring(6)
+    console.log('userName', userNameAB)
