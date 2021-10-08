@@ -8,21 +8,21 @@ enum photoOrientation {
 }
 
 // SuperClase
-class Item {
-    protected _id: number;
+abstract class Item {
+    protected  readonly _id: number;
     protected _title: string;
 
     constructor(id: number, title: string){
-        this.id = id;
-        this.title = title;
+        this._id = id;
+        this._title = title;
     }
     
     get id(){
         return this._id;
     }
-    set id(id: number){
-        this._id = id;
-    }
+    //set id(id: number){
+    //    this._id = id;
+    //}
 
     get title(){
         return this._title;
@@ -64,8 +64,6 @@ class Album extends Item {
 
     public constructor(id: number, title: string) {
         super(id, title);
-        this._id = id;
-        this._title = title;
         this._picture = [];
     }
 
@@ -80,8 +78,10 @@ album.addPicture(picture);
 console.log('album', album)
 
 console.log('picture.id', picture.id); //get    
-picture.id = 100; //set
+//picture.id = 100; //set DA ERROR POR EL READONLY
 picture.title = 'Another title';
 album.title = 'Personal Activities';
 console.log('album', album);
 
+//const item = new Item(1, 'Test title') DA ERROR POR ABSTRACT
+//console.log('item', item);

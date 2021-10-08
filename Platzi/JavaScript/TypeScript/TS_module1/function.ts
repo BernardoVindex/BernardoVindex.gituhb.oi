@@ -44,7 +44,7 @@ const picture = createPic('My Picts', '2021-06-09', '1000x1000')
 console.log('picture:', picture);
 
     // Tipo de retrono con TypeScript
-
+/*
     function handleError(code: number, message: string): never | string {
         //Procesamiento del código, mensaje
         if (message == 'error') {
@@ -64,3 +64,4 @@ console.log('picture:', picture);
     } catch {
 
     }
+    */
