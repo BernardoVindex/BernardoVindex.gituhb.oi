@@ -1,3 +1,6 @@
 [submodule "Platzi/JavaScript/Webpack/Platzi/JavaScript/Webpack/js-portfolioT1"]
 	path = Platzi/JavaScript/Webpack/Platzi/JavaScript/Webpack/js-portfolioT1
 	url = https://github.com/gndx/js-portfolio.git
+[submodule "Platzi/JavaScript/TravisCI/Project/Platzi/JavaScript/TravisCI/Project/platzi-store"]
+	path = Platzi/JavaScript/TravisCI/Project/Platzi/JavaScript/TravisCI/Project/platzi-store
+	url = https://github.com/gndx/platzi-store.git
